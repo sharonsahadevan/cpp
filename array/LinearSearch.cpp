@@ -19,7 +19,10 @@ int main()
     for (int i = 0; i < n; i++)
     {
         if (key == A[i])
+        {
             cout << "Key Found at " << i << "index" << endl;
+            return 0;
+        }
     }
 
     cout << "Key Not found!" << endl;
