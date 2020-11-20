@@ -1,4 +1,6 @@
-# What is the Size of a Pointer? 
+# Pointer
+
+## What is the Size of a Pointer? 
 
 A Pointer are declared using data type. But its size is not dependent
 on its data type.
@@ -58,14 +60,9 @@ in Heap memory and delete them when not required.
 ### Memory Leak:
 
 * If a program like Chrome is allocating memory for tab but not deallocating it when tab is closed then it is called as Memory Leak
-
-If a program requires memory at runtime, it will allocate in Heap using pointer.
-If Heap memory is not in use, it should be deallocated.
-Memory Leak: If a program like Chrome is allocating memory for
-tab but not deallocating it when tab is closed, then it is called as
-Memory Leak.
-If a program is not deallocating then the memory reserved for Heap
-may become empty. 
+* If a program requires memory at runtime, it will allocate in Heap using pointer.
+* If Heap memory is not in use, it should be deallocated.
+* If a program is not deallocating then the memory reserved for Heap may become empty. 
 
 
 ## Dangling Pointer
