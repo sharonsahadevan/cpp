@@ -74,3 +74,18 @@ may become empty.
 int *p=new int[5];
 delete []p;
 Now p is a Dangling pointer.
+
+
+## Stack vs Heap memory
+
+### Stack:
+* all the variables we declare in a function are created in stack.
+* All variables are accessible only within that function.
+* Compiler can finalise the amount of memory required for all the variables.
+* When a function is called, memory is created in stack
+* When a function terminates, memory is deleted from stack.
+### Heap:
+* pointer is used for allocating memory at runtime.
+* new operator is used for allocating memory in heap.
+* Heap memory should be allocated when required and deallocated when not in use.
+* Heap memory can be accessed by entire program if pointer is available. 
