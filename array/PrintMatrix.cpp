@@ -10,7 +10,7 @@ int main()
         {
             cout << count << " ";
             count++;
-        }
+                }
         cout << endl;
     }
     return 0;
